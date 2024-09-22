@@ -1,15 +1,57 @@
-.header{
-    .header-container{
+.header {
+    background-color: #001F3F; // Navy Blue background
+    padding: 20px 0; // 20px padding top and bottom
+
+    .header-container {
         height: 60px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        .header-menu{
-            display: flex;
-            flex-direction: row;
-            list-style-type: none;
-            gap: 10px;
+        align-items: center; // Align items vertically in the center
+        padding: 0 20px; // Adding padding on the left and right for better spacing
+
+        .logo img {
+            height: 40px; // Adjust logo height to match design (can be changed as needed)
+        }
+
+        nav {
+            background-color: #001F3F; // Navy Blue background for navigation bar
+            .header-menu {
+                display: flex;
+                flex-direction: row;
+                list-style-type: none;
+                gap: 20px; // Adjusting gap between menu items
+
+                li {
+                    font-family: 'Roboto', 'Lato', 'Open Sans', sans-serif;
+                    font-size: 16px; // Font size for menu items (can go up to 18px)
+                    font-weight: 500; // Medium font weight
+                    color: #FFFFFF; // Unhovered link color - white
+                    text-transform: uppercase; // Optional for a corporate look
+
+                    &:hover {
+                        color: #FFD700; // Gold on hover
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .header-button {
+            background-color: #D3D3D3; // Light Gray background for button
+            color: #001F3F; // Navy Blue text color for button
+            padding: 10px 20px; // Button padding
+            border-radius: 5px;
+            font-weight: 600; // Semi-bold
+            font-size: 18px; // Standard font size
+            cursor: pointer;
+            border: none;
+
+            &:hover {
+                background-color: #FFD700; // Gold for CTA on hover
+                color: #FFFFFF; // White text on hover
+                cursor: pointer;
+            }
         }
     }
-    background-color: var(--primary-color)
 }
