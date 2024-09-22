@@ -1,0 +1,30 @@
+.footer{
+    &__row{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__nav-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__navigation-list, &__social-list{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 10px;
+    }
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    &__copyright{
+        border-top-style: inset;
+        display: flex;
+    }
+    
+}
