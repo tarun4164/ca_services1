@@ -6,6 +6,8 @@
 }
 #root{
   --primary-color: red;
+  --card-background: #f3f3f3;
+  --box-shadow: #191A23;
 }
 .row{
   display: flex;
