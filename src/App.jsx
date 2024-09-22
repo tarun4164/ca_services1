@@ -3,6 +3,7 @@ import Header from "./components/header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Services from "./components/Services/Services.jsx";
 import {Footer} from "./components/Footer/Footer.jsx";
+import Details from "./components/Details/Details.jsx";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Header />
       <Hero />
       <Services />
-     <Footer/>
+      <Details />
+      <Footer/>
     </>
   );
 }

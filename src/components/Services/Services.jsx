@@ -1,4 +1,3 @@
-import React from "react";
 import "./Services.scss";
 import auditingImg from "../../assets/auditing.png"
 
