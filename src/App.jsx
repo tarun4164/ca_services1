@@ -1,14 +1,16 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/header/Header.jsx'
+import "./App.css";
+import Header from "./components/header/Header.jsx";
+import Hero from "./components/Hero/Hero.jsx";
+import Services from "./components/Services/Services.jsx";
 
 function App() {
-
   return (
     <>
-     <Header/>
+      <Header />
+      <Hero />
+      <Services />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
