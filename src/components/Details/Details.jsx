@@ -1,24 +1,15 @@
+import serviceData from "../../utils/serviceDescription.json"
+import "./Details.scss"
 const Details = () => {
-  const details = [
-    {
-      header: "some title",
-      description:
-        "Lorem some full details, Lorem some full details, Lorem some full details",
-    },
-    {
-      header: "some title",
-      description:
-        "Lorem some full details, Lorem some full details, Lorem some full details",
-    },
-  ];
 
   return (
     <>
-      {details.map((detail, index) => (
+      {serviceData.details.map((detail, index) => (
         <InfoSection
           key={index}
           header={detail.header}
           description={detail.description}
+          linkId={detail.linkId}
         />
       ))}
     </>
@@ -27,11 +18,11 @@ const Details = () => {
 
 export default Details;
 
-const InfoSection = ({ header, description }) => {
+const InfoSection = ({ header, description,linkId }) => {
   return (
-    <>
-      <div className="acc-header">{header}</div>
-      <div className="acc-desc">{description}</div>
-    </>
+  <div id={linkId} className="info-section">
+    <div className="info-section__header">{header}</div>
+    <div className="info-section__description">{description}</div>
+  </div>
   );
 };

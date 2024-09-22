@@ -1,0 +1,26 @@
+{
+    "details": [
+      {
+        "linkId": "Auditing",
+        "header": "Auditing and Assurance",
+        "description": "Our Auditing and Assurance services ensure that your financial statements are accurate and compliant with regulatory standards. We conduct thorough audits to identify any discrepancies, providing you with a detailed report and recommendations to enhance your financial practices and ensure transparency and reliability."
+
+      },
+      {
+        "linkId": "taxFiling",
+        "header": "Income Tax Filing",
+        "description": "Our Income Tax Filing service simplifies the process of filing your tax returns by accurately preparing and submitting all necessary documentation. We ensure that you benefit from any eligible deductions and credits while maintaining compliance with current tax laws, aiming to minimize your tax liability and avoid potential penalties."
+      },
+      {
+        "linkId": "compnayRegistration",
+        "header": "compnay Registration",
+        "description": "Our Company Registration service guides you through the process of establishing a new business entity. From choosing the appropriate business structure to completing the necessary paperwork and registering with government authorities, we provide comprehensive support to ensure your business is set up efficiently and in compliance with legal requirements."
+      },
+      {
+        "linkId": "GST",
+        "header": "GST Filing",
+        "description": "Our GST Filing service helps you navigate the complexities of Goods and Services Tax compliance. We handle the preparation and submission of your GST returns, ensuring that all transactions are accurately reported and that you adhere to the latest GST regulations, thereby avoiding penalties and maintaining smooth business operations."
+      }
+    ]
+  }
+  
